@@ -1048,17 +1048,3 @@ footer .cadre .elements a {
 
   }
 }
-
-@media screen and (max-width: 401px) {
-  header nav {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 20px;
-  }
-
-
-
-
-}
