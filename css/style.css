@@ -94,8 +94,9 @@ header nav {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   gap: 70px;
+  text-align: center;
 }
 
 header nav a {
@@ -103,6 +104,7 @@ header nav a {
   font-size: 1rem;
   font-weight: 400;
   padding-top: 50px;
+
 }
 
 header nav a:hover {
@@ -136,7 +138,7 @@ header nav a:hover {
   font-size: 1.125rem;
   font-weight: 700;
   color: var(--noire);
-  text-align: center;
+
 
 }
 
@@ -733,7 +735,7 @@ footer .cadre .elements a {
   header {
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+
   }
 
   header .logo {
@@ -743,15 +745,25 @@ footer .cadre .elements a {
   }
 
   header nav {
-    gap: 100px;
+    width: 100%;
+    text-align: center;
+    gap: 0px;
+
   }
 
   header nav a {
-    border-top: 2px solid var(--blanc);
+    width: 50%;
+    display: inline-block;
+    padding-bottom: 20px;
+    border-bottom: 3px solid var(--gris);
+    border-top: none;
+
+
   }
 
   header nav a:hover {
-    border-top: 2px solid var(--bleu);
+    border-bottom: 3px solid var(--bleu);
+    border-top: none;
     color: var(--bleu);
   }
 
