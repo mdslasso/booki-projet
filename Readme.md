@@ -10,5 +10,3 @@
 8- Le site https://jigsaw.w3.org/ pour valider le  code css
 
 
-https://github.com/mdslasso/booki-projet.git
- 
